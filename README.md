@@ -36,7 +36,24 @@ This is a backend service built with Node.js, Express, and MongoDB for managing 
 - Node.js and npm installed on your system.  
 - MongoDB installed locally or access to a MongoDB Atlas cluster.  
 
-### Steps  
+### Steps
 1. Clone the repository:  
-   ```bash  
-   git clone https://github.com/sahil1si18ec083/Response-Code-List-Management-in-Node.js.git 
+   ```bash
+   git clone https://github.com/sahil1si18ec083/Response-Code-List-Management-in-Node.js.git
+   ```
+2. Navigate to the project directory:  
+   ```bash
+   cd Response-Code-List-Management-in-Node.js
+   ```
+3. Install the required dependencies:  
+   ```bash
+   npm install
+   ```
+4. Create a `.env` file in the root directory and configure the environment variables. Refer to the `.env.example` file for required keys.
+5. Start the application in development mode:  
+   ```bash
+   npm run dev
+   ```
+6. Access the application:  
+   Open your browser and navigate to `http://localhost:8080`. 
+
